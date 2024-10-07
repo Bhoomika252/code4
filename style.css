@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.ribbon {
+    background-color: #343a40;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ribbon button {
+    margin: 5px;
+}
+
+.text-formatting {
+    margin-top: 10px;
+}
+
+.slide {
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#timer {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+body {
+    background-color: #f8f9fa;
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+.slide h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.slide p {
+    font-size: 1.5rem;
+}
+.clickable-div {
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s;
+}
+.clickable-div:hover {
+    background-color: #218838; /* Darker green on hover */
+}
